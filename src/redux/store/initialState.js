@@ -19,9 +19,6 @@ let initialState = localStorage.getItem('appState');
 if (typeof initialState === 'string') {
   try {
     initialState = JSON.parse(initialState);
-    if (initialState.search && initialState.search.showSearchOverlay) {
-      initialState.search.showSearchOverlay = false;
-    }
   } catch (e) {
     initialState = undefined;
   }

@@ -1,7 +1,7 @@
 {
-  "name": "Cargo transport web frontend",
+  "name": "react-redux",
   "version": "0.1.0",
-  "description": "on demand cargo transport",
+  "description": "react-redux",
   "main": "index.js",
   "engines": {
     "node": ">=4.2.0",
